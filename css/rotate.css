@@ -87,3 +87,21 @@ p {
     -webkit-margin-end: 0px;
 }
 
+.about a:first-child {
+    margin-right: 80px;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    vertical-align: baseline;
+
+    color: #eee;
+    text-decoration: none;
+    border-radius: 2px;
+    -webkit-transition: background 0.1s;
+    -moz-transition: background 0.1s;
+    -o-transition: background 0.1s;
+    transition: background 0.1s;
+}
