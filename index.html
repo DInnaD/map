@@ -35,17 +35,21 @@
 			</header-->
 
 			<script>
+				function myFunction() {
+   var element = document.getElementById("front");
+   element.classList.toggle("back");
+}
 				/*let anime = true;
 				function  abd () {
 					anime = !anime;
 				}*/
-document.getElementsByClassName('front')[0].onclick = () => {
+/*document.getElementsByClassName('front')[0].onclick = () => {
       document.getElementsByClassName('front')[0].className = 'back';
     };
 
     document.getElementsByClassName('back')[0].onclick = () => {
       document.getElementsByClassName('back')[0].className = 'front';
-    };
+    };*/
 			</script>
 			<ul id="elasticstack" class="elasticstack"><!--left side stick-->
 				<li><!--left side stick-->
@@ -53,8 +57,8 @@ document.getElementsByClassName('front')[0].onclick = () => {
 				<!--div class="card"  (click)="rotate">
 					<div class="front"*ngif=anime><img src="img/1.jpg" alt="01"/><h5><a href="">Buy Tickets<a></h5></div>
 					<div class="back"*ngif=!anime-->
-					<div class="card">
-						<div class="front" ><img src="img/1.jpg" alt="01"/><h5><a href="">Купити Білет Тут<a></h5></div>
+					<div class="card" onclick="myFunction()">
+						<div class="front" id="front" ><img src="img/1.jpg" alt="01"/><h5><a href="">Купити Білет Тут<a></h5></div>
 						<div class="back">
 							<h4><span><a href="https://dinnad.github.io/skakun1repertuar/">Програма Концерту</a><span></span></br></span>
 								<!--Alena tyt redaguy 1 chy 2 viddilennya-->
