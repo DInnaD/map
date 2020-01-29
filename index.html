@@ -34,12 +34,19 @@
 				</h1>
 			</header-->
 
-			<!--script>
-				let anime = true;
+			<script>
+				/*let anime = true;
 				function  abd () {
 					anime = !anime;
-				}
-			</script-->
+				}*/
+document.getElementsByClassName('front')[0].onclick = () => {
+      document.getElementsByClassName('front')[0].className = 'back';
+    };
+
+    document.getElementsByClassName('back')[0].onclick = () => {
+      document.getElementsByClassName('back')[0].className = 'front';
+    };
+			</script>
 			<ul id="elasticstack" class="elasticstack"><!--left side stick-->
 				<li><!--left side stick-->
 				<div class="wrapper"><!--left side stick-->
