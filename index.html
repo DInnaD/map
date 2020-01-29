@@ -39,6 +39,10 @@
    var element = document.getElementById("front");
    element.classList.toggle("back");
 }
+				function myFunction1() {
+   var element = document.getElementById("back");
+   element.classList.toggle("front");
+}
 				/*let anime = true;
 				function  abd () {
 					anime = !anime;
@@ -57,9 +61,9 @@
 				<!--div class="card"  (click)="rotate">
 					<div class="front"*ngif=anime><img src="img/1.jpg" alt="01"/><h5><a href="">Buy Tickets<a></h5></div>
 					<div class="back"*ngif=!anime-->
-					<div class="card" onclick="myFunction()">
-						<div class="front" id="front" ><img src="img/1.jpg" alt="01"/><h5><a href="">Купити Білет Тут<a></h5></div>
-						<div class="back">
+					<div class="card" >
+						<div class="front" id="front" >< onclick="myFunction()" img src="img/1.jpg" alt="01"/><h5><a href="">Купити Білет Тут<a></h5></div>
+						<div class="back" onclick="myFunction1()">
 							<h4><span><a href="https://dinnad.github.io/skakun1repertuar/">Програма Концерту</a><span></span></br></span>
 								<!--Alena tyt redaguy 1 chy 2 viddilennya-->
 								</br><span><a href="https://dinnad.github.io/skakun1part1link/">1 Відділення(skakun1part1link)</a></span></br></span>
