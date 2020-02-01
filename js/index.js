@@ -31,7 +31,7 @@ var GM = {
 
     initMap: function () {
         var coordinates = {lat: 49.580158, lng: 34.545727},
-            popupContent = '<p class="content" style="text-color:black!important;">Мерщій на концерт, поспішай, зупинити біля Симфонічного Оркестру вимагай!</p>'/*this.$popupContent.html()*/,
+            popupContent = this.$popupContent.html(),
             markerImage = 'images/marker.png',
             zoom = 15,
 
