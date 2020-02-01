@@ -30,8 +30,8 @@ var GM = {
     },
 
     initMap: function () {
-        var coordinates = {lat: 47.212325, lng: 38.933663},
-            popupContent = this.$popupContent.html(),
+        var coordinates = {lat: 49.580158, lng: 34.545727},
+            popupContent = '<p class="content">Мерщій на концерт, поспішай, зупинити біля Симфонічного Оркестру вимагай!</p>'/*this.$popupContent.html()*/,
             markerImage = 'images/marker.png',
             zoom = 15,
 
@@ -52,7 +52,7 @@ var GM = {
                 icon: markerImage
             });
 
-        $.getJSON("../json/map-style/map-style_colored.json", function (data) {
+        $.getJSON("../json/map-style/map-style_colored1.json", function (data) {
             map.setOptions({styles: data});
         });
 
