@@ -52,7 +52,7 @@ var GM = {
                 icon: markerImage
             });
 
-        $.getJSON("../json/map-style/map-style_colored11.json", function (data) {
+        $.getJSON("../json/map-style/map-style_aubergine.json", function (data) {
             map.setOptions({styles: data});
         });
 
