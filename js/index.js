@@ -30,7 +30,7 @@ var GM = {
     },
 
     initMap: function () {
-        var coordinates = {lat: 49.580158, lng: 34.545727},
+        var coordinates = {lat: 48.4176895, lng: 24.963508},
             popupContent = this.$popupContent.html(),
             markerImage = 'images/marker.png',
             zoom = 15,
